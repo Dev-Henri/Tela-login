@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+  
+  }
+
+
+@media screen and (min-width: 1200px) {
+   .container{
+    display: flex;
+   }
+
+   main{
+    width: 572px;
+    height: 512px;
+
+   }
+
+   .imagem{
+    width: 720px;
+    height: 100vh;
+    background: var(--background) url(images/side-image.jpg) no-repeat;
+    background-size: cover;
+    background-position: left center;
+
+   }
+
+   #onsenha{
+    position: absolute;
+    top:44%;
+    left: 89%;
+
+}
+
+
+
+
+   
+}
