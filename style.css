@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+  
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+  
+  }
+
+body, html{
+    background-color: var(--background);
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+main{
+    margin: auto;
+    width: 375px;
+    height: 500px;
+    padding: 15px;
+    background-color: var(--form-background);
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px #0000005e;
+}
+
+img.logo{
+    margin: 15px;
+    
+}
+
+.title-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 8px;
+    color: var(--text-title);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+section#header p{
+    color: var(--text-base);
+    margin-top: 8px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-family: var(--font-rob);
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.campo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: var(--text-base);
+    
+    
+}
+
+
+
+.campo > input{
+    height: 35px;
+    width: calc(100% - 25px);
+    border: 1px solid var(--text-base);
+    background-color: var(--form-background);
+    margin-bottom: 12px;
+    margin-top: 8px;
+    padding: 5px;
+    padding-left: 40px;
+
+    
+}
+
+.campo > input:hover{
+    border: 2px solid var(--primary-color);
+
+}
+
+
+
+.material-symbols-outlined{
+    color: var(--text-base);
+    position: absolute;
+    top:44%;
+    left: 2%;
+    font-size: 1.5em;
+}
+
+#onsenha{
+    position: absolute;
+    top:44%;
+    left: 83%;
+
+}
+
+.esqueci-senha{
+    margin-top: 8px;
+    color: #afb6c2;
+}
+
+
+.esqueci-senha > a{
+    margin-left: 60px;
+    color: var(--primary-color);
+    text-decoration: none;
+    cursor: pointer;
+    
+    
+}
+
+.esqueci-senha > a:hover{
+    text-decoration: underline;
+}
+
+#butao{
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#butao:hover{
+    background-color: #ffb700;
+
+}
+
+div.noconta{
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+div.noconta > a{
+    color: var(--primary-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div.noconta > a:hover{
+    text-decoration: underline;
+}
+
